@@ -13,6 +13,10 @@ console.log(typeof (convertValue));
 console.log();
 console.log();
 
+/*
+    '1213ljjn' => NaN
+*/
+
 //Writing a function which checks whether the conversion is proper or not.
 
 function typeChecks() {
