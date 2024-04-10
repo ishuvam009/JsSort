@@ -43,3 +43,10 @@ console.log(newArray.splice(4,2)) // it overwrites the main arary ie newArray
 console.log(newArray)
 
 
+let marvel = ['thor','iron man','spiderman','hulk','wanda']
+
+let dc = ['batman','superman','flash','aquaman','wonder woman'];
+
+let multiverse = marvel.concat(dc);
+
+console.log(multiverse);
