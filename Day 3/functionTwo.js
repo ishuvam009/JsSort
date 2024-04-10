@@ -6,7 +6,7 @@ function addCalculateCartPrice(...num1){
 
 console.log(addCalculateCartPrice(200,900,8900,9800))
 
-//Accessing the values of an object inside another function.
+//Parsing object inside a function.
 
 let user = {
     productName: 'Iphone',
@@ -18,3 +18,13 @@ function handleObject(objectValue){
 }
 
 handleObject(user)
+
+//Parsing array inside function
+
+let arr = [1,2,3,4,5,6,7,8,9];
+
+function handleArr(arrValue) {
+    return arrValue[2]; // index 2 of the array.
+}
+
+console.log(handleArr(arr))
