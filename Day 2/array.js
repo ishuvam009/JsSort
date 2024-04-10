@@ -16,7 +16,30 @@
 
 //Push
 
-let newArr = [1, 2 , 80, 100, 99]
-newArr.push(20)
+let arr = [2,3,4,5,80,9,99,700]
 
-console.log(newArr)
+let fruits = ['apple','banana','mango','papaya','grape','melon']
+
+let carBrands = ['tata', 'toyota','kia','audi','bmw','mercedes']
+
+console.log(arr);
+console.log(fruits.join('.'));
+console.log(typeof fruits);
+
+let newArr = carBrands.join();
+
+console.log(newArr);
+console.log(typeof newArr);
+
+//splice & slice
+
+let newArray = [1,5,6,7,8,9,3,4,5,2]
+
+console.log(newArray.slice(0,5))
+
+console.log(newArray.splice(4,2)) // it overwrites the main arary ie newArray
+
+
+console.log(newArray)
+
+
