@@ -26,12 +26,20 @@
 
 //1 to 10 multiplication table
 
-for(let i=1;i<=10;i++){
-    console.log(`Multiplication table for ${i}`)
-    for(let j=1;j<=10;j++){
-        console.log(`${i} * ${j} = ${i*j}`);
-    }
+// for(let i=1;i<=10;i++){
+//     console.log(`Multiplication table for ${i}`)
+//     for(let j=1;j<=10;j++){
+//         console.log(`${i} * ${j} = ${i*j}`);
+//     }
+// }
+
+
+
+//Array
+
+let myArray = ['Superman','Batman','Flash','Aquaman'];
+
+for(let i=0;i< myArray.length;i++){
+    const str = myArray[i];
+    console.log(str);
 }
-
-
-
