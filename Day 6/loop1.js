@@ -35,11 +35,13 @@
 
 
 
-//Array
-
-let myArray = ['Superman','Batman','Flash','Aquaman'];
-
-for(let i=0;i< myArray.length;i++){
-    const str = myArray[i];
-    console.log(str);
-}
+// //Array
+//
+// let myArray = ['Superman','Batman','Flash','Aquaman'];
+//
+// for(let i=0;i< myArray.length;i++){
+//     const str = myArray[i];
+//     console.log(str);
+// }
+//
+// console.log(str)
