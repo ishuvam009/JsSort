@@ -25,11 +25,11 @@ const newMap = new Map();
     newMap.set('FR','France');
     newMap.set('USA','United States Of America');
 
-console.log(newMap)
+//console.log(newMap)
 
 
 for (const  [keys,values] of newMap){
-    console.log(`The Country Code is: ${keys} & Country name is: ${values}`)
+    //console.log(`The Country Code is: ${keys} & Country name is: ${values}`)
 }
 
 
@@ -44,3 +44,21 @@ for (const  [keys,values] of newMap){
 //     console.log(`The game ID is: ${gamesId} and game name is: ${gamesId}.`)
 // }
 
+const myObject = {
+    js: 'Jaavascript',
+    cpp: 'C++',
+    swift: 'Swift by Apple'
+}
+
+for(const key in myObject){
+    //console.log(key)
+    console.log(`${key} shortcut is for ${myObject[key]}.`)
+}
+
+//Forin in Array.
+
+const myArr = ['js','java','cpp','rust','ruby','c','swift']
+
+for(const key in myArr){
+    console.log(`Programming languages are: ${myArr[key]}`)
+}
