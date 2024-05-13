@@ -15,3 +15,12 @@ while(index<heroArray.length){
     console.log(`The superheros are: ${heroArray[index]}`);
     index=index+1;
 }
+
+//do while loop
+let j= 1
+do{
+    console.log(`The score is: ${j}`)
+    j++;
+} while(j<=10){
+
+}
